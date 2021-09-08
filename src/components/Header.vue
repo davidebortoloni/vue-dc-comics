@@ -86,21 +86,21 @@ export default {
 };
 </script>
 
-<style lang="scss">
+<style scoped lang="scss">
 header {
   font-family: "Roboto Condensed", sans-serif;
 }
 .row {
-  height: 70px;
+  height: 85px;
 }
 ul {
   list-style-type: none;
   li {
     display: inline-block;
     margin: 0 15px;
-    padding: 3px 0;
+    padding: 2px 0;
     &.active div {
-      border-bottom: 6px solid #0282f9;
+      border-bottom: 4px solid #0282f9;
       a {
         color: #0282f9;
       }
@@ -116,6 +116,6 @@ ul {
   }
 }
 img {
-  padding: 8px;
+  padding: 12px;
 }
 </style>
