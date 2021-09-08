@@ -87,6 +87,8 @@ export default {
 </script>
 
 <style scoped lang="scss">
+@import "../assets/scss/_vars.scss";
+
 header {
   font-family: "Roboto Condensed", sans-serif;
 }
@@ -100,9 +102,9 @@ ul {
     margin: 0 15px;
     padding: 2px 0;
     &.active div {
-      border-bottom: 4px solid #0282f9;
+      border-bottom: 4px solid $primaryColor;
       a {
-        color: #0282f9;
+        color: $primaryColor;
       }
     }
   }
@@ -111,7 +113,7 @@ ul {
     text-decoration: none;
     text-transform: uppercase;
     &:hover {
-      color: #0282f9;
+      color: $primaryColor;
     }
   }
 }

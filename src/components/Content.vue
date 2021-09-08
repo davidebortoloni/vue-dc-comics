@@ -1,7 +1,7 @@
 <template>
   <section>
     <div class="container">
-      <div class="row justify-content-between align-items-center">
+      <div class="row">
         <div class="col h-100 text-white text-medium">
           --> Content goes here &#60;--
         </div>
@@ -25,7 +25,7 @@ section {
 .row {
   height: 85px;
   .col {
-    @include center();
+    @include center("vertical");
   }
 }
 </style>
