@@ -23,7 +23,7 @@ section {
   background-color: black;
 }
 .row {
-  height: 85px;
+  height: 100px;
   .col {
     @include center("vertical");
   }

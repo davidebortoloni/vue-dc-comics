@@ -93,7 +93,7 @@ header {
   font-family: "Roboto Condensed", sans-serif;
 }
 .row {
-  height: 85px;
+  height: 100px;
 }
 ul {
   list-style-type: none;
@@ -118,6 +118,6 @@ ul {
   }
 }
 img {
-  padding: 12px;
+  padding: 14px;
 }
 </style>
