@@ -46,7 +46,6 @@ export default {
   },
   methods: {
     getImgUrl(url) {
-      console.log(require("@/assets/img/" + url));
       return require("@/assets/img/" + url);
     },
   },
